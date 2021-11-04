@@ -37,11 +37,11 @@ Deseamos correr cíclicamente [este script](DownloadNetcdf.ps1) ejecutando sigui
 ```powershell
 .\DownloadNetcdf.ps1 (Get-Date -Format "yyyy-MM-dd") (Get-Location)
 ```
-Para ello usaremos crearemos una tarea ejectuando el [siguiente script](CreateDailyTaskScheduler.ps1).
+Para ello usaremos crearemos una tarea ejecutaando el [siguiente script](CreateDailyTaskScheduler.ps1).
 ```powershell
 .\CreateDailyTaskScheduler.ps1
 ```
-Si la tarea se creo correctamente obtendremos el siguiente resultado:
+Si la tarea se creó correctamente obtendremos el siguiente resultado:
 ```text
 TaskPath     TaskName                              State     
 --------     --------                              -----
